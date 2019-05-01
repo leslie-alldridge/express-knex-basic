@@ -20,3 +20,11 @@ yarn knex seed:run
 ```
 
 6. now the database is populated. You can view the data using db sqlite browser (https://sqlitebrowser.org/) and opening up the 'dev.sqlite3' file in your project folder.
+
+7. type "yarn start" to run the server and navigate to localhost:3000 in your web browser. "yarn dev" can be used in development mode so it hot reloads.
+8. You should now see various medicines on the home page
+9. New medicines can be added
+
+### New features
+
+It's a good idea to practice CRUD actions (create read update delete) with databases. Code some pages and functions + routes so that users can delete an item, return a specific item and update existing items. I've written these in order of complexity.
