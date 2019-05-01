@@ -6,11 +6,13 @@
 </head>
 
 <body>
+  <h3>Welcome to my pharmacy</h3>
   <ul>
-    {{#each drug}}
-    <li>{{name}} ({{price}})</li>
+    {{#each drugs}}
+    <li>{{name}} will cost you ${{price}}</li>
     {{/each}}
   </ul>
+  <a href="/add">Add new item</a>
 </body>
 
 </html>
