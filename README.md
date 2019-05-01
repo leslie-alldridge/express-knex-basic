@@ -28,3 +28,13 @@ yarn knex seed:run
 ### New features
 
 It's a good idea to practice CRUD actions (create read update delete) with databases. Code some pages and functions + routes so that users can delete an item, return a specific item and update existing items. I've written these in order of complexity.
+
+### Resources
+
+complicated knex docs - https://knexjs.org/
+
+awesome cheat sheet for knex (way better than the above docs) - https://devhints.io/knex
+
+basic express routing - https://expressjs.com/en/starter/basic-routing.html
+
+CRUD actions - https://www.linkedin.com/pulse/why-you-should-learn-crud-actions-leslie-alldridge/
