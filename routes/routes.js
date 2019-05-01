@@ -23,7 +23,7 @@ router.post("/save", (req, res) => {
   // user did a POST request to save an item (like posting mail in the mailbox!)
   db.saveDrug(req.body) // save their new drug to the database
     .then(drugs => {
-      res.render("index", { drugs: drugs }); // take them back to the homepage and display all drugs
+      res.redirect("/"); // take them back to the homepage and display all drugs
     })
     .catch(err => {
       res.status(500).send("DATABASE ERROR: " + err.message); // something blew up
